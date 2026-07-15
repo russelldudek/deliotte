@@ -1,21 +1,7 @@
-# Deloitte Forward Deployed Engineer candidate campaign
+# Deloitte Forward Deployed Engineer candidate vision
 
-Independent candidate materials prepared by Russell Dudek for Deloitte's Forward Deployed Engineer, Frontier GenAI role.
+Independent candidate campaign by Russell Dudek for Deloitte's Forward Deployed Engineer, Frontier GenAI role.
 
-The campaign argues that frontier capability matters only when it survives enterprise reality: real context, tools, authority, evidence, economics, observability, and client ownership.
+The public experience argues that frontier-model capability creates enterprise value only when it becomes an owned, observable, governed client workflow. The campaign includes an interactive deployment-posture lab, an animated enterprise deployment assembly, a two-page role-aligned résumé, a one-page cover letter, an interview thesis brief, a 90-day entry plan, and a Forward Deployment Contract.
 
-## Candidate materials
-
-- `index.html` — candidate vision and interactive Enterprise AI Transmission
-- `resume.html` — exactly two-page role-aligned resume
-- `cover-letter.html` — exactly one-page cover letter
-- `interview-brief.html` — interview thesis, objections, scorecard, and executive questions
-- `90-day-plan.html` — two-page entry plan
-- `runtime-fit-review.html` — one-page role-specific working-session artifact
-- `docs/` — generated printable PDFs for every document
-
-## Validation
-
-The committed package includes source-level, rendered responsive, interaction, reduced-motion, PDF pagination, PDF text/metadata, contact-information, brand, accessibility, and confidentiality evidence under `qa/` and `campaign-audit.md`.
-
-This repository is publication infrastructure. The public candidate experience identifies the target company and candidate clearly while remaining explicitly independent and not an official Deloitte publication.
+Open `index.html` for the candidate vision. Every document route includes a direct PDF download; no print-dialog controls are used.
