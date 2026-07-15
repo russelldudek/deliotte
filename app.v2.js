@@ -6,7 +6,7 @@ if(assembly&&replay){replay.addEventListener('click',()=>{assembly.classList.add
 const lab=$('[data-lab]');
 if(lab){
  const state={scenario:'exception',severity:3,variability:4,latency:3,autonomy:3};
- const presets={knowledge:{severity:2,variability:3,latency:2,autonomy:2},exception:{severity:3,variability:4,latency:3,autonomy:3},engineering:{severity:4,variability:3,latency:4,autonomy:2}};
+ const presets={knowledge:{severity:2,variability:3,latency:2,autonomy:2},exception:{severity:3,variability:4,latency:3,autonomy:3},engineering:{severity:4,variability:2,latency:3,autonomy:1}};
  const posture=()=>{const risk=state.severity*1.45+state.variability*.9+state.autonomy*.8+state.latency*.35;
   if(state.severity>=5||risk>=14.2)return['Hold for redesign','High consequence or combined operating risk exceeds the evidence and authority represented. Narrow the action, strengthen evaluation and resolve ownership before release.','Human-first decision; AI prepares evidence','Adversarial, repeated-run, tool-failure and rollback','Complete traces plus policy and security events','Redesign or tightly bounded shadow mode'];
   if(risk>=11.1)return['Execute with approval','The workflow can advance only with explicit approval, strong traceability, representative evaluation and a named operating owner.','Approval before consequential action','Representative + adversarial + repeated-run','Full tool trace, cost, latency, retries, overrides','Bounded pilot with named owner'];
