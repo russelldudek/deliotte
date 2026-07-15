@@ -1,0 +1,353 @@
+%PDF-1.4
+%ABCD ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/BaseFont /Courier-Bold /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+6 0 obj
+<<
+/Contents 11 0 R /MediaBox [ 0 0 612 792 ] /Parent 10 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+7 0 obj
+<<
+/Contents 12 0 R /MediaBox [ 0 0 612 792 ] /Parent 10 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+8 0 obj
+<<
+/PageMode /UseNone /Pages 10 0 R /Type /Catalog
+>>
+endobj
+9 0 obj
+<<
+/Author (anonymous) /CreationDate (D:20260715211150+00'00') /Creator (anonymous) /Keywords () /ModDate (D:20260715211150+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (unspecified) /Title (untitled) /Trapped /False
+>>
+endobj
+10 0 obj
+<<
+/Count 2 /Kids [ 6 0 R 7 0 R ] /Type /Pages
+>>
+endobj
+11 0 obj
+<<
+/Length 4864
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.52549 .737255 .145098 rg
+n 0 0 10 792 re f*
+.039216 .039216 .039216 rg
+BT /F2 25 Tf 30 TL ET
+BT 1 0 0 1 46 738 Tm (Russell Dudek) Tj T* ET
+.309804 .45098 0 rg
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 46 720 Tm (Interview Thesis Brief | Forward Deployed Engineer, Frontier GenAI) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 7.5 Tf 9 TL ET
+BT 1 0 0 1 487.4625 746 Tm (Pittsburgh, Pennsylvania) Tj T* ET
+BT 1 0 0 1 524.13 735 Tm (412.287.8640) Tj T* ET
+BT 1 0 0 1 486.12 724 Tm (russelldudek@gmail.com) Tj T* ET
+BT 1 0 0 1 476.22 713 Tm (linkedin.com/in/russelldudek) Tj T* ET
+.039216 .039216 .039216 RG
+1.2 w
+n 46 703 m 570 703 l S
+.352941 .352941 .352941 rg
+BT /F3 6.7 Tf 8.04 TL ET
+BT 1 0 0 1 46 688 Tm (https://russelldudek.github.io/deliotte/) Tj T* ET
+.85098 .862745 .831373 RG
+.5 w
+n 46 680 m 570 680 l S
+.352941 .352941 .352941 rg
+BT /F3 6 Tf 7.2 TL ET
+BT 1 0 0 1 46 24 Tm (DELOITTE FRONTIER GENAI FDE - INTERVIEW THESIS BRIEF) Tj T* ET
+BT 1 0 0 1 552 24 Tm (1 / 2) Tj T* ET
+.039216 .039216 .039216 rg
+n 46 600 524 52 re f*
+.52549 .737255 .145098 rg
+n 46 600 7 52 re f*
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 60 636 Tm (CORE THESIS) Tj T* ET
+1 1 1 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 60 621 Tm (The FDE closes the distance between model capability and operating ownership.) Tj T* ET
+.309804 .45098 0 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 46 590 Tm (ACTUAL MANDATE) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 9.1 Tf 10.92 TL ET
+BT 1 0 0 1 46 573 Tm (Reduce the distance between a client AI ambition and a production-capable workflow without creating uncontrolled technical debt,) Tj T* ET
+BT 1 0 0 1 46 560 Tm (governance exposure, or permanent dependence on the delivery pod.) Tj T* ET
+.309804 .45098 0 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 46 543 Tm (OPERATING TENSIONS) Tj T* ET
+.945098 .94902 .933333 rg
+n 46 471 524 49 re f*
+.309804 .45098 0 rg
+BT /F4 7 Tf 8.4 TL ET
+BT 1 0 0 1 56 507 Tm (01) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F2 9.5 Tf 11.4 TL ET
+BT 1 0 0 1 82 507 Tm (Frontier speed vs. enterprise control) Tj T* ET
+.352941 .352941 .352941 rg
+BT /F1 7.6 Tf 9.12 TL ET
+BT 1 0 0 1 82 492 Tm (Prototype rapidly while designing permissions, evidence, cost, latency, support, and ownership from the start.) Tj T* ET
+.945098 .94902 .933333 rg
+n 46 412 524 49 re f*
+.309804 .45098 0 rg
+BT /F4 7 Tf 8.4 TL ET
+BT 1 0 0 1 56 448 Tm (02) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F2 9.5 Tf 11.4 TL ET
+BT 1 0 0 1 82 448 Tm (Client specificity vs. reusable delivery IP) Tj T* ET
+.352941 .352941 .352941 rg
+BT /F1 7.6 Tf 9.12 TL ET
+BT 1 0 0 1 82 433 Tm (Fit the real workflow while retaining code, evaluations, prompts, runbooks, and lessons that improve the next engagement.) Tj T* ET
+.945098 .94902 .933333 rg
+n 46 353 524 49 re f*
+.309804 .45098 0 rg
+BT /F4 7 Tf 8.4 TL ET
+BT 1 0 0 1 56 389 Tm (03) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F2 9.5 Tf 11.4 TL ET
+BT 1 0 0 1 82 389 Tm (Model capability vs. system reliability) Tj T* ET
+.352941 .352941 .352941 rg
+BT /F1 7.6 Tf 9.12 TL ET
+BT 1 0 0 1 82 374 Tm (Move beyond impressive single outputs toward repeated-run stability, tool-state integrity, recovery, and maintainability.) Tj T* ET
+.945098 .94902 .933333 rg
+n 46 294 524 49 re f*
+.309804 .45098 0 rg
+BT /F4 7 Tf 8.4 TL ET
+BT 1 0 0 1 56 330 Tm (04) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F2 9.5 Tf 11.4 TL ET
+BT 1 0 0 1 82 330 Tm (Agent autonomy vs. human authority) Tj T* ET
+.352941 .352941 .352941 rg
+BT /F1 7.6 Tf 9.12 TL ET
+BT 1 0 0 1 82 315 Tm (Earn autonomy through consequence, evidence, permissions, and reversibility.) Tj T* ET
+.309804 .45098 0 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 46 287 Tm (OPERATING MODEL) Tj T* ET
+.039216 .039216 .039216 rg
+n 46 210 104.8 60 re f*
+.52549 .737255 .145098 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 84.18 247 Tm (FRAME) Tj T* ET
+1 1 1 rg
+BT /F1 6.8 Tf 8.16 TL ET
+BT 1 0 0 1 67.9734 231 Tm (Operating obligation) Tj T* ET
+.039216 .039216 .039216 rg
+n 150.8 210 104.8 60 re f*
+.52549 .737255 .145098 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 189.196 247 Tm (PROVE) Tj T* ET
+1 1 1 rg
+BT /F1 6.8 Tf 8.16 TL ET
+BT 1 0 0 1 172.7734 231 Tm (Operating obligation) Tj T* ET
+.039216 .039216 .039216 rg
+n 255.6 210 104.8 60 re f*
+.52549 .737255 .145098 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 293.336 247 Tm (BOUND) Tj T* ET
+1 1 1 rg
+BT /F1 6.8 Tf 8.16 TL ET
+BT 1 0 0 1 277.5734 231 Tm (Operating obligation) Tj T* ET
+.039216 .039216 .039216 rg
+n 360.4 210 104.8 60 re f*
+.52549 .737255 .145098 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 398.356 247 Tm (EMBED) Tj T* ET
+1 1 1 rg
+BT /F1 6.8 Tf 8.16 TL ET
+BT 1 0 0 1 382.3734 231 Tm (Operating obligation) Tj T* ET
+.039216 .039216 .039216 rg
+n 465.2 210 104.8 60 re f*
+.52549 .737255 .145098 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 495.824 247 Tm (TRANSFER) Tj T* ET
+1 1 1 rg
+BT /F1 6.8 Tf 8.16 TL ET
+BT 1 0 0 1 487.1734 231 Tm (Operating obligation) Tj T* ET
+ 
+endstream
+endobj
+12 0 obj
+<<
+/Length 5071
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.52549 .737255 .145098 rg
+n 0 0 10 792 re f*
+.039216 .039216 .039216 rg
+BT /F2 25 Tf 30 TL ET
+BT 1 0 0 1 46 738 Tm (Russell Dudek) Tj T* ET
+.309804 .45098 0 rg
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 46 720 Tm (Interview Thesis Brief | Forward Deployed Engineer, Frontier GenAI) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 7.5 Tf 9 TL ET
+BT 1 0 0 1 487.4625 746 Tm (Pittsburgh, Pennsylvania) Tj T* ET
+BT 1 0 0 1 524.13 735 Tm (412.287.8640) Tj T* ET
+BT 1 0 0 1 486.12 724 Tm (russelldudek@gmail.com) Tj T* ET
+BT 1 0 0 1 476.22 713 Tm (linkedin.com/in/russelldudek) Tj T* ET
+.039216 .039216 .039216 RG
+1.2 w
+n 46 703 m 570 703 l S
+.352941 .352941 .352941 rg
+BT /F3 6.7 Tf 8.04 TL ET
+BT 1 0 0 1 46 688 Tm (https://russelldudek.github.io/deliotte/) Tj T* ET
+.85098 .862745 .831373 RG
+.5 w
+n 46 680 m 570 680 l S
+.352941 .352941 .352941 rg
+BT /F3 6 Tf 7.2 TL ET
+BT 1 0 0 1 46 24 Tm (DELOITTE FRONTIER GENAI FDE - INTERVIEW THESIS BRIEF) Tj T* ET
+BT 1 0 0 1 552 24 Tm (2 / 2) Tj T* ET
+.309804 .45098 0 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 46 652 Tm (PROOF MAP) Tj T* ET
+.945098 .94902 .933333 rg
+n 46 553 250 76 re f*
+.309804 .45098 0 rg
+BT /F2 9.5 Tf 11.4 TL ET
+BT 1 0 0 1 58 611 Tm (Vape-Jet) Tj T* ET
+.352941 .352941 .352941 rg
+BT /F1 7.3 Tf 8.76 TL ET
+BT 1 0 0 1 58 596 Tm (Embedded operating problem solving across production, quality,) Tj T* ET
+BT 1 0 0 1 58 586.7 Tm (support, engineering, ERP, telemetry, and field-machine signals.) Tj T* ET
+.945098 .94902 .933333 rg
+n 309 553 250 76 re f*
+.309804 .45098 0 rg
+BT /F2 9.5 Tf 11.4 TL ET
+BT 1 0 0 1 321 611 Tm (DudeWorth) Tj T* ET
+.352941 .352941 .352941 rg
+BT /F1 7.3 Tf 8.76 TL ET
+BT 1 0 0 1 321 596 Tm (Agentic workflow architecture using context, retrieval, agents, human) Tj T* ET
+BT 1 0 0 1 321 586.7 Tm (judgment, escalation, evaluation, and governance.) Tj T* ET
+.945098 .94902 .933333 rg
+n 46 461 250 76 re f*
+.309804 .45098 0 rg
+BT /F2 9.5 Tf 11.4 TL ET
+BT 1 0 0 1 58 519 Tm (Amazon) Tj T* ET
+.352941 .352941 .352941 rg
+BT /F1 7.3 Tf 8.76 TL ET
+BT 1 0 0 1 58 504 Tm (Production discipline, throughput visibility, escalation, standard work,) Tj T* ET
+BT 1 0 0 1 58 494.7 Tm (safety, quality, and customer outcomes.) Tj T* ET
+.945098 .94902 .933333 rg
+n 309 461 250 76 re f*
+.309804 .45098 0 rg
+BT /F2 9.5 Tf 11.4 TL ET
+BT 1 0 0 1 321 519 Tm (Compunetics) Tj T* ET
+.352941 .352941 .352941 rg
+BT /F1 7.3 Tf 8.76 TL ET
+BT 1 0 0 1 321 504 Tm (Engineering, manufacturing, quality, technical programs, and) Tj T* ET
+BT 1 0 0 1 321 494.7 Tm (high-consequence stakeholder environments.) Tj T* ET
+.309804 .45098 0 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 46 443 Tm (STRONGEST OBJECTION) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F2 9.3 Tf 11.16 TL ET
+BT 1 0 0 1 46 426 Tm (Does broad operations and leadership experience translate into daily coding, testing, debugging, documentation, and) Tj T* ET
+BT 1 0 0 1 46 413.5 Tm (contribution inside an FDE pod?) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 8.5 Tf 10.2 TL ET
+BT 1 0 0 1 46 397 Tm (The concern is reasonable. My titles describe the scope of problems for which I have been accountable - not a preference to remain distant) Tj T* ET
+BT 1 0 0 1 46 385.5 Tm (from the work. Judge the direct artifacts, technical reasoning, workflow logic, evaluation discipline, and willingness to state exactly where) Tj T* ET
+BT 1 0 0 1 46 374 Tm (platform-production evidence is not yet verified.) Tj T* ET
+.309804 .45098 0 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 46 358.5 Tm (FIVE INTERVIEW CLAIMS) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 7.9 Tf 9.48 TL ET
+BT 1 0 0 1 52 341.5 Tm (- Use-case selection is an engineering decision.) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 7.9 Tf 9.48 TL ET
+BT 1 0 0 1 52 329 Tm (- Evaluation must represent the workflow, not merely the model.) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 7.9 Tf 9.48 TL ET
+BT 1 0 0 1 52 316.5 Tm (- Human review is an architecture component.) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 7.9 Tf 9.48 TL ET
+BT 1 0 0 1 52 304 Tm (- Production begins before deployment through logging, production, versioning, tests, ownership, rollback, and cost visibility.) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 7.9 Tf 9.48 TL ET
+BT 1 0 0 1 52 291.5 Tm (- Every engagement should leave behind a client-owned workflow and reusable delivery assets.) Tj T* ET
+.309804 .45098 0 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 46 279 Tm (EXECUTIVE QUESTIONS) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 7.7 Tf 9.24 TL ET
+BT 1 0 0 1 52 262 Tm (- What distinguishes the Frontier GenAI FDE model from established AI-engineering delivery?) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 7.7 Tf 9.24 TL ET
+BT 1 0 0 1 52 249.8 Tm (- At what point is a prototype considered successful?) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 7.7 Tf 9.24 TL ET
+BT 1 0 0 1 52 237.6 Tm (- Where have client GenAI programs most commonly stalled after successful prototypes?) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 7.7 Tf 9.24 TL ET
+BT 1 0 0 1 52 225.4 Tm (- What does excellent Associate FDE performance look like after six months?) Tj T* ET
+ 
+endstream
+endobj
+xref
+0 13
+0000000000 65535 f 
+0000000061 00000 n 
+0000000122 00000 n 
+0000000229 00000 n 
+0000000341 00000 n 
+0000000446 00000 n 
+0000000556 00000 n 
+0000000751 00000 n 
+0000000946 00000 n 
+0000001015 00000 n 
+0000001276 00000 n 
+0000001342 00000 n 
+0000006258 00000 n 
+trailer
+<<
+/ID 
+[<2bfe693b8e132f3e7ab2fe8c854dd346><2bfe693b8e132f3e7ab2fe8c854dd346>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 9 0 R
+/Root 8 0 R
+/Size 13
+>>
+startxref
+11381
+%%EOF

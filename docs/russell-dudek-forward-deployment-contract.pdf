@@ -1,0 +1,331 @@
+%PDF-1.4
+%ABCD ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/Contents 10 0 R /MediaBox [ 0 0 612 792 ] /Parent 9 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+6 0 obj
+<<
+/Contents 11 0 R /MediaBox [ 0 0 612 792 ] /Parent 9 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+7 0 obj
+<<
+/PageMode /UseNone /Pages 9 0 R /Type /Catalog
+>>
+endobj
+8 0 obj
+<<
+/Author (anonymous) /CreationDate (D:20260715211150+00'00') /Creator (anonymous) /Keywords () /ModDate (D:20260715211150+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (unspecified) /Title (untitled) /Trapped /False
+>>
+endobj
+9 0 obj
+<<
+/Count 2 /Kids [ 5 0 R 6 0 R ] /Type /Pages
+>>
+endobj
+10 0 obj
+<<
+/Length 3951
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.52549 .737255 .145098 rg
+n 0 0 10 792 re f*
+.039216 .039216 .039216 rg
+BT /F2 25 Tf 30 TL ET
+BT 1 0 0 1 46 738 Tm (Russell Dudek) Tj T* ET
+.309804 .45098 0 rg
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 46 720 Tm (Forward Deployment Contract | Frontier GenAI) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 7.5 Tf 9 TL ET
+BT 1 0 0 1 487.4625 746 Tm (Pittsburgh, Pennsylvania) Tj T* ET
+BT 1 0 0 1 524.13 735 Tm (412.287.8640) Tj T* ET
+BT 1 0 0 1 486.12 724 Tm (russelldudek@gmail.com) Tj T* ET
+BT 1 0 0 1 476.22 713 Tm (linkedin.com/in/russelldudek) Tj T* ET
+.039216 .039216 .039216 RG
+1.2 w
+n 46 703 m 570 703 l S
+.352941 .352941 .352941 rg
+BT /F3 6.7 Tf 8.04 TL ET
+BT 1 0 0 1 46 688 Tm (https://russelldudek.github.io/deliotte/) Tj T* ET
+.85098 .862745 .831373 RG
+.5 w
+n 46 680 m 570 680 l S
+.352941 .352941 .352941 rg
+BT /F3 6 Tf 7.2 TL ET
+BT 1 0 0 1 46 24 Tm (DELOITTE FRONTIER GENAI FDE - FORWARD DEPLOYMENT CONTRACT) Tj T* ET
+BT 1 0 0 1 552 24 Tm (1 / 2) Tj T* ET
+.039216 .039216 .039216 rg
+n 46 594 524 58 re f*
+.52549 .737255 .145098 rg
+n 46 594 7 58 re f*
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 60 636 Tm (CONTRACT RULE) Tj T* ET
+1 1 1 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 60 621 Tm (No stage advances on model performance alone. A workflow advances only when its next operating obligation is satisfied.) Tj T* ET
+.945098 .94902 .933333 rg
+n 46 497 524 81 re f*
+.309804 .45098 0 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 58 559 Tm (FRAME) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 7.8 Tf 9.36 TL ET
+BT 1 0 0 1 125 543 Tm (Changed work, user, owner, baseline, constraints, and value hypothesis.) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F2 6.8 Tf 8.16 TL ET
+BT 1 0 0 1 58 515 Tm (EXIT) Tj T* ET
+.352941 .352941 .352941 rg
+BT /F1 7.2 Tf 8.64 TL ET
+BT 1 0 0 1 125 515 Tm (A workflow problem - not an AI feature request.) Tj T* ET
+.945098 .94902 .933333 rg
+n 46 406 524 81 re f*
+.309804 .45098 0 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 58 468 Tm (PROVE) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 7.8 Tf 9.36 TL ET
+BT 1 0 0 1 125 452 Tm (Smallest end-to-end implementation testing context, tools, behavior, fit, and usefulness.) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F2 6.8 Tf 8.16 TL ET
+BT 1 0 0 1 58 424 Tm (EXIT) Tj T* ET
+.352941 .352941 .352941 rg
+BT /F1 7.2 Tf 8.64 TL ET
+BT 1 0 0 1 125 424 Tm (A representative user completes meaningful work.) Tj T* ET
+.945098 .94902 .933333 rg
+n 46 315 524 81 re f*
+.309804 .45098 0 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 58 377 Tm (BOUND) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 7.8 Tf 9.36 TL ET
+BT 1 0 0 1 125 361 Tm (Permissions, approvals, escalation, refusal, evaluation, versioning, cost, latency, and risk.) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F2 6.8 Tf 8.16 TL ET
+BT 1 0 0 1 58 333 Tm (EXIT) Tj T* ET
+.352941 .352941 .352941 rg
+BT /F1 7.2 Tf 8.64 TL ET
+BT 1 0 0 1 125 333 Tm (Allowed, prohibited, and held actions are explicit.) Tj T* ET
+.945098 .94902 .933333 rg
+n 46 224 524 81 re f*
+.309804 .45098 0 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 58 286 Tm (EMBED) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 7.8 Tf 9.36 TL ET
+BT 1 0 0 1 125 270 Tm (Identity, APIs, workflow systems, logging, observability, CI/CD, support, and cadence.) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F2 6.8 Tf 8.16 TL ET
+BT 1 0 0 1 58 242 Tm (EXIT) Tj T* ET
+.352941 .352941 .352941 rg
+BT /F1 7.2 Tf 8.64 TL ET
+BT 1 0 0 1 125 242 Tm (Capability works inside the real workflow.) Tj T* ET
+.945098 .94902 .933333 rg
+n 46 133 524 81 re f*
+.309804 .45098 0 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 58 195 Tm (TRANSFER) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 7.8 Tf 9.36 TL ET
+BT 1 0 0 1 125 179 Tm (Runbook, training, ownership, architecture record, reusable assets, backlog, and review.) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F2 6.8 Tf 8.16 TL ET
+BT 1 0 0 1 58 151 Tm (EXIT) Tj T* ET
+.352941 .352941 .352941 rg
+BT /F1 7.2 Tf 8.64 TL ET
+BT 1 0 0 1 125 151 Tm (The client can operate and improve it.) Tj T* ET
+ 
+endstream
+endobj
+11 0 obj
+<<
+/Length 4793
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.52549 .737255 .145098 rg
+n 0 0 10 792 re f*
+.039216 .039216 .039216 rg
+BT /F2 25 Tf 30 TL ET
+BT 1 0 0 1 46 738 Tm (Russell Dudek) Tj T* ET
+.309804 .45098 0 rg
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 46 720 Tm (Forward Deployment Contract | Frontier GenAI) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 7.5 Tf 9 TL ET
+BT 1 0 0 1 487.4625 746 Tm (Pittsburgh, Pennsylvania) Tj T* ET
+BT 1 0 0 1 524.13 735 Tm (412.287.8640) Tj T* ET
+BT 1 0 0 1 486.12 724 Tm (russelldudek@gmail.com) Tj T* ET
+BT 1 0 0 1 476.22 713 Tm (linkedin.com/in/russelldudek) Tj T* ET
+.039216 .039216 .039216 RG
+1.2 w
+n 46 703 m 570 703 l S
+.352941 .352941 .352941 rg
+BT /F3 6.7 Tf 8.04 TL ET
+BT 1 0 0 1 46 688 Tm (https://russelldudek.github.io/deliotte/) Tj T* ET
+.85098 .862745 .831373 RG
+.5 w
+n 46 680 m 570 680 l S
+.352941 .352941 .352941 rg
+BT /F3 6 Tf 7.2 TL ET
+BT 1 0 0 1 46 24 Tm (DELOITTE FRONTIER GENAI FDE - FORWARD DEPLOYMENT CONTRACT) Tj T* ET
+BT 1 0 0 1 552 24 Tm (2 / 2) Tj T* ET
+.309804 .45098 0 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 46 652 Tm (DEPLOYMENT POSTURE DIMENSIONS) Tj T* ET
+.945098 .94902 .933333 rg
+n 46 563 250 66 re f*
+.309804 .45098 0 rg
+BT /F2 8.5 Tf 10.2 TL ET
+BT 1 0 0 1 57 613 Tm (Business outcome) Tj T* ET
+.352941 .352941 .352941 rg
+BT /F1 7.1 Tf 8.52 TL ET
+BT 1 0 0 1 57 598 Tm (Decision or task changed; baseline and value evidence defined.) Tj T* ET
+.945098 .94902 .933333 rg
+n 309 563 250 66 re f*
+.309804 .45098 0 rg
+BT /F2 8.5 Tf 10.2 TL ET
+BT 1 0 0 1 320 613 Tm (Quality and reliability) Tj T* ET
+.352941 .352941 .352941 rg
+BT /F1 7.1 Tf 8.52 TL ET
+BT 1 0 0 1 320 598 Tm (Representative cases, failure categories, repeated-run behavior, and) Tj T* ET
+BT 1 0 0 1 320 589 Tm (regression evidence.) Tj T* ET
+.945098 .94902 .933333 rg
+n 46 481 250 66 re f*
+.309804 .45098 0 rg
+BT /F2 8.5 Tf 10.2 TL ET
+BT 1 0 0 1 57 531 Tm (Human authority) Tj T* ET
+.352941 .352941 .352941 rg
+BT /F1 7.1 Tf 8.52 TL ET
+BT 1 0 0 1 57 516 Tm (Approval, escalation, reversibility, and consequential-action boundaries.) Tj T* ET
+.945098 .94902 .933333 rg
+n 309 481 250 66 re f*
+.309804 .45098 0 rg
+BT /F2 8.5 Tf 10.2 TL ET
+BT 1 0 0 1 320 531 Tm (Economics and latency) Tj T* ET
+.352941 .352941 .352941 rg
+BT /F1 7.1 Tf 8.52 TL ET
+BT 1 0 0 1 320 516 Tm (Cost per completed workflow and response time appropriate to the) Tj T* ET
+BT 1 0 0 1 320 507 Tm (work.) Tj T* ET
+.945098 .94902 .933333 rg
+n 46 399 250 66 re f*
+.309804 .45098 0 rg
+BT /F2 8.5 Tf 10.2 TL ET
+BT 1 0 0 1 57 449 Tm (Operability) Tj T* ET
+.352941 .352941 .352941 rg
+BT /F1 7.1 Tf 8.52 TL ET
+BT 1 0 0 1 57 434 Tm (Logging, diagnosis, recovery, support, and version visibility.) Tj T* ET
+.945098 .94902 .933333 rg
+n 309 399 250 66 re f*
+.309804 .45098 0 rg
+BT /F2 8.5 Tf 10.2 TL ET
+BT 1 0 0 1 320 449 Tm (Transfer and reuse) Tj T* ET
+.352941 .352941 .352941 rg
+BT /F1 7.1 Tf 8.52 TL ET
+BT 1 0 0 1 320 434 Tm (Named client owner, documentation, training, independent change, and) Tj T* ET
+BT 1 0 0 1 320 425 Tm (reusable assets.) Tj T* ET
+.309804 .45098 0 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 46 381 Tm (RELEASE POSTURES) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 46 364 Tm (Assist inside workflow) Tj T* ET
+.352941 .352941 .352941 rg
+BT /F1 7.4 Tf 8.88 TL ET
+BT 1 0 0 1 200 364 Tm (Human acts; AI retrieves, organizes, summarizes, or drafts.) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 46 350.6 Tm (Recommend, human decides) Tj T* ET
+.352941 .352941 .352941 rg
+BT /F1 7.4 Tf 8.88 TL ET
+BT 1 0 0 1 200 350.6 Tm (AI synthesizes evidence but final authority remains human.) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 46 337.2 Tm (Execute with approval) Tj T* ET
+.352941 .352941 .352941 rg
+BT /F1 7.4 Tf 8.88 TL ET
+BT 1 0 0 1 200 337.2 Tm (System prepares or initiates consequential work only after explicit approval.) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 46 323.8 Tm (Bounded autonomous execution) Tj T* ET
+.352941 .352941 .352941 rg
+BT 1 0 0 1 200 323.8 Tm (Low-consequence, stable, permission-limited action with monitoring and fallback.) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 46 310.4 Tm (Hold for redesign) Tj T* ET
+.352941 .352941 .352941 rg
+BT /F1 7.4 Tf 8.88 TL ET
+BT 1 0 0 1 200 310.4 Tm (Consequence, uncertainty, ownership, or evidence does not support release.) Tj T* ET
+.039216 .039216 rg
+n 46 66 524 56 re f*
+.52549 .737255 .145098 rg
+n 46 66 7 56 re f*
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 60 106 Tm (TRANSFER STANDARD) Tj T* ET
+1 1 1 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 60 91 Tm (The client team can operate, evaluate, diagnose, and improve the workflow - and Deloitte retains a reusable pattern or asset.) Tj T* ET
+ 
+endstream
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000061 00000 n 
+0000000112 00000 n 
+0000000219 00000 n 
+0000000331 00000 n 
+0000000436 00000 n 
+0000000630 00000 n 
+0000000824 00000 n 
+0000000892 00000 n 
+0000001153 00000 n 
+0000001218 00000 n 
+0000005221 00000 n 
+trailer
+<<
+/ID 
+[<e0d4b2b99a1be9379a6ca4ba9b71b26a><e0d4b2b99a1be9379a6ca4ba9b71b26a>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 8 0 R
+/Root 7 0 R
+/Size 12
+>>
+startxref
+10066
+%%EOF

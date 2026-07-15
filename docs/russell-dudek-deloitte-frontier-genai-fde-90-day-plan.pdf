@@ -1,0 +1,281 @@
+%PDF-1.4
+%ABCD ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/Contents 10 0 R /MediaBox [ 0 0 612 792 ] /Parent 9 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+6 0 obj
+<<
+/Contents 11 0 R /MediaBox [ 0 0 612 792 ] /Parent 9 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+7 0 obj
+<<
+/PageMode /UseNone /Pages 9 0 R /Type /Catalog
+>>
+endobj
+8 0 obj
+<<
+/Author (anonymous) /CreationDate (D:20260715211150+00'00') /Creator (anonymous) /Keywords () /ModDate (D:20260715211150+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (unspecified) /Title (untitled) /Trapped /False
+>>
+endobj
+9 0 obj
+<<
+/Count 2 /Kids [ 5 0 R 6 0 R ] /Type /Pages
+>>
+endobj
+10 0 obj
+<<
+/Length 4124
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.52549 .737255 .145098 rg
+n 0 0 10 792 re f*
+.039216 .039216 .039216 rg
+BT /F2 25 Tf 30 TL ET
+BT 1 0 0 1 46 738 Tm (Russell Dudek) Tj T* ET
+.309804 .45098 0 rg
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 46 720 Tm (First 90 Days | Forward Deployed Engineer, Frontier GenAI) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 7.5 Tf 9 TL ET
+BT 1 0 0 1 487.4625 746 Tm (Pittsburgh, Pennsylvania) Tj T* ET
+BT 1 0 0 1 524.13 735 Tm (412.287.8640) Tj T* ET
+BT 1 0 0 1 486.12 724 Tm (russelldudek@gmail.com) Tj T* ET
+BT 1 0 0 1 476.22 713 Tm (linkedin.com/in/russelldudek) Tj T* ET
+.039216 .039216 .039216 RG
+1.2 w
+n 46 703 m 570 703 l S
+.352941 .352941 .352941 rg
+BT /F3 6.7 Tf 8.04 TL ET
+BT 1 0 0 1 46 688 Tm (https://russelldudek.github.io/deliotte/) Tj T* ET
+.85098 .862745 .831373 RG
+.5 w
+n 46 680 m 570 680 l S
+.352941 .352941 .352941 rg
+BT /F3 6 Tf 7.2 TL ET
+BT 1 0 0 1 46 24 Tm (DELOITTE FRONTIER GENAI FDE - 90-DAY ENTRY PLAN) Tj T* ET
+BT 1 0 0 1 552 24 Tm (1 / 2) Tj T* ET
+.039216 .039216 .039216 rg
+n 46 594 524 58 re f*
+.52549 .737255 .145098 rg
+n 46 594 7 58 re f*
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 60 636 Tm (ENTRY PRINCIPLE) Tj T* ET
+1 1 1 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 60 621 Tm (Earn technical trust first. Own a bounded workstream next. Prove client operability and reusable delivery value by day 90.) Tj T* ET
+.309804 .45098 0 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 46 584 Tm (DAYS 1-30 - LEARN THE POD AND SHIP) Tj T* ET
+.945098 .94902 .933333 rg
+n 46 494 524 67 re f*
+.039216 .039216 .039216 rg
+BT /F2 9.2 Tf 11.04 TL ET
+BT 1 0 0 1 58 545 Tm (Pair on client framing) Tj T* ET
+.352941 .352941 .352941 rg
+BT /F1 7.5 Tf 9 TL ET
+BT 1 0 0 1 58 529 Tm (Join senior FDEs in use-case discovery and working sessions.) Tj T* ET
+.309804 .45098 0 rg
+BT /F2 6.8 Tf 8.16 TL ET
+BT 1 0 0 1 390 545 Tm (EVIDENCE) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 7.2 Tf 8.64 TL ET
+BT 1 0 0 1 390 529 Tm (Clear workflow and stakeholder map.) Tj T* ET
+.945098 .94902 .933333 rg
+n 46 417 524 67 re f*
+.039216 .039216 .039216 rg
+BT /F2 9.2 Tf 11.04 TL ET
+BT 1 0 0 1 58 468 Tm (Learn the engineering system) Tj T* ET
+.352941 .352941 .352941 rg
+BT /F1 7.5 Tf 9 TL ET
+BT 1 0 0 1 58 452 Tm (Review approved platforms, reference architectures, security, evaluation, code, and) Tj T* ET
+BT 1 0 0 1 58 442.5 Tm (documentation standards.) Tj T* ET
+.309804 .45098 0 rg
+BT /F2 6.8 Tf 8.16 TL ET
+BT 1 0 0 1 390 468 Tm (EVIDENCE) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 7.2 Tf 8.64 TL ET
+BT 1 0 0 1 390 452 Tm (Pattern inventory and focused questions.) Tj T* ET
+.945098 .94902 .933333 rg
+n 46 340 524 67 re f*
+.039216 .039216 .039216 rg
+BT /F2 9.2 Tf 11.04 TL ET
+BT 1 0 0 1 58 391 Tm (Build small implementations) Tj T* ET
+.352941 .352941 .352941 rg
+BT /F1 7.5 Tf 9 TL ET
+BT 1 0 0 1 58 375 Tm (Create tool-use and retrieval examples in the pod preferred platform.) Tj T* ET
+.309804 .45098 0 rg
+BT /F2 6.8 Tf 8.16 TL ET
+BT 1 0 0 1 390 391 Tm (EVIDENCE) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 7.2 Tf 8.64 TL ET
+BT 1 0 0 1 390 375 Tm (Working implementation reviewed by a technical) Tj T* ET
+BT 1 0 0 1 390 365.8 Tm (mentor.) Tj T* ET
+.945098 .94902 .933333 rg
+n 46 263 524 67 re f*
+.039216 .039216 .039216 rg
+BT /F2 9.2 Tf 11.04 TL ET
+BT 1 0 0 1 58 314 Tm (Contribute to the real backlog) Tj T* ET
+.352941 .352941 .352941 rg
+BT /F1 7.5 Tf 9 TL ET
+BT 1 0 0 1 58 298 Tm (Add tests, documentation, runbook improvements, and issue resolution.) Tj T* ET
+.309804 .45098 0 rg
+BT /F2 6.8 Tf 8.16 TL ET
+BT 1 0 0 1 390 314 Tm (EVIDENCE) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 7.2 Tf 8.64 TL ET
+BT 1 0 0 1 390 298 Tm (First merged engineering contribution.) Tj T* ET
+.309804 .45098 0 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 46 255 Tm (OPERATING POSTURE) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 8.8 Tf 10.56 TL ET
+BT 1 0 0 1 46 238 Tm (Listen for the difference between the nominal request and the actual work being changed. Make uncertainty visible. Ask where) Tj T* ET
+BT 1 0 0 1 46 225.8 Tm (authority sits. Treat documentation and evaluation as part of the build, not cleanup after the demonstration.) Tj T* ET
+ 
+endstream
+endobj
+11 0 obj
+<<
+/Length 3470
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.52549 .737255 .145098 rg
+n 0 0 10 792 re f*
+.039216 .039216 .039216 rg
+BT /F2 25 Tf 30 TL ET
+BT 1 0 0 1 46 738 Tm (Russell Dudek) Tj T* ET
+.309804 .45098 0 rg
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 46 720 Tm (First 90 Days | Forward Deployed Engineer, Frontier GenAI) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 7.5 Tf 9 TL ET
+BT 1 0 0 1 487.4625 746 Tm (Pittsburgh, Pennsylvania) Tj T* ET
+BT 1 0 0 1 524.13 735 Tm (412.287.8640) Tj T* ET
+BT 1 0 0 1 486.12 724 Tm (russelldudek@gmail.com) Tj T* ET
+BT 1 0 0 1 476.22 713 Tm (linkedin.com/in/russelldudek) Tj T* ET
+.039216 .039216 .039216 RG
+1.2 w
+n 46 703 m 570 703 l S
+.352941 .352941 .352941 rg
+BT /F3 6.7 Tf 8.04 TL ET
+BT 1 0 0 1 46 688 Tm (https://russelldudek.github.io/deliotte/) Tj T* ET
+.85098 .862745 .831373 RG
+.5 w
+n 46 680 m 570 680 l S
+.352941 .352941 .352941 rg
+BT /F3 6 Tf 7.2 TL ET
+BT 1 0 0 1 46 24 Tm (DELOITTE FRONTIER GENAI FDE - 90-DAY ENTRY PLAN) Tj T* ET
+BT 1 0 0 1 552 24 Tm (2 / 2) Tj T* ET
+.309804 .45098 0 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 46 652 Tm (DAYS 31-60 - OWN A BOUNDED WORKSTREAM) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 8.4 Tf 10.08 TL ET
+BT 1 0 0 1 52 635 Tm (- Define one workflow baseline, value hypothesis, user, owner, and failure mode.) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 8.4 Tf 10.08 TL ET
+BT 1 0 0 1 52 621.6 Tm (- Implement one bounded AI-enabled workflow with a realistic API or enterprise-system boundary.) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 8.4 Tf 10.08 TL ET
+BT 1 0 0 1 52 608.2 Tm (- Define permissions, human approval, refusal, escalation, and rollback behavior.) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 8.4 Tf 10.08 TL ET
+BT 1 0 0 1 52 594.8 Tm (- Instrument latency, cost, model behavior, tool outcomes, retries, and overrides.) Tj T* ET
+.039216 .039216 .039216 rg
+n 46 515.4 524 64 re f*
+.52549 .737255 .145098 rg
+n 46 515.4 7 64 re f*
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 60 563.4 Tm (60-DAY EVIDENCE) Tj T* ET
+1 1 1 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 60 548.4 Tm (Representative users complete meaningful work; the decision path, authority model, tests, limitations, and observable behavior are) Tj T* ET
+BT 1 0 0 1 60 538.4 Tm (documented.) Tj T* ET
+.309804 .45098 0 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 46 505.4 Tm (DAYS 61-90 - PROVE OPERABILITY AND TRANSFER) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 8.4 Tf 10.08 TL ET
+BT 1 0 0 1 52 488.4 Tm (- Support deployment-readiness and CI/CD decisions.) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 8.4 Tf 10.08 TL ET
+BT 1 0 0 1 52 475 Tm (- Create runbook, monitoring plan, escalation logic, and ownership map.) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 8.4 Tf 10.08 TL ET
+BT 1 0 0 1 52 461.6 Tm (- Pair with client engineers and operators until routine operation and diagnosis are independent.) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 8.4 Tf 10.08 TL ET
+BT 1 0 0 1 52 448.2 Tm (- Convert repeated elements into reusable modules, evaluations, prompts, or reference patterns.) Tj T* ET
+.309804 .45098 0 rg
+BT /F2 8.2 Tf 9.84 TL ET
+BT 1 0 0 1 46 432.8 Tm (DAY-90 STANDARD) Tj T* ET
+.039216 .039216 .039216 rg
+BT /F1 9 Tf 10.8 TL ET
+BT 1 0 0 1 46 415.8 Tm (The workstream has a measurable baseline, explicit human-authority model, representative evaluation evidence, observable) Tj T* ET
+BT 1 0 0 1 46 403.3 Tm (production behavior, named client owner, and a clear distinction between reusable pattern and client-specific implementation.) Tj T* ET
+ 
+endstream
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000061 00000 n 
+0000000112 00000 n 
+0000000219 00000 n 
+0000000331 00000 n 
+0000000436 00000 n 
+0000000630 00000 n 
+0000000824 00000 n 
+0000000892 00000 n 
+0000001153 00000 n 
+0000001218 00000 n 
+0000005394 00000 n 
+trailer
+<<
+/ID 
+[<c5e2ca80ebef74a55fdd714df2d22c9a><c5e2ca80ebef74a55fdd714df2d22c9a>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 8 0 R
+/Root 7 0 R
+/Size 12
+>>
+startxref
+8916
+%%EOF

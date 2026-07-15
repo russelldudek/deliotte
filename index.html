@@ -1,337 +1,55 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Independent candidate vision by Russell Dudek for Deloitte's Forward Deployed Engineer, Frontier GenAI role." />
-  <title>Russell Dudek | Deloitte Frontier GenAI FDE</title>
-  <style>
-    :root {
-      --black:#0b0b0b;
-      --ink:#171717;
-      --muted:#686868;
-      --line:#dadada;
-      --paper:#ffffff;
-      --wash:#f4f4f1;
-      --green:#86bc25;
-      --green-dark:#4c7104;
-      --green-soft:#ecf6dc;
-      --amber:#9a6200;
-      --red:#9c2525;
-      --max:1180px;
-      --shadow:0 24px 70px rgba(0,0,0,.15);
-      --font:"Helvetica Neue",Helvetica,Arial,sans-serif;
-    }
-    *{box-sizing:border-box}
-    html{scroll-behavior:smooth}
-    body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font);line-height:1.55;text-rendering:optimizeLegibility}
-    a{color:inherit}
-    button,input{font:inherit}
-    button{cursor:pointer}
-    :focus-visible{outline:3px solid var(--green);outline-offset:4px}
-    .skip{position:absolute;left:1rem;top:-100px;background:#fff;color:#000;padding:.75rem 1rem;z-index:1000;border:2px solid #000}
-    .skip:focus{top:1rem}
-    .header{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.95);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
-    .nav{max-width:var(--max);margin:auto;padding:.9rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem}
-    .brand{font-size:1.35rem;font-weight:850;letter-spacing:-.055em;text-decoration:none}
-    .brand-dot{color:var(--green)}
-    .links{display:flex;align-items:center;gap:1.2rem;font-size:.82rem;font-weight:750}
-    .links a{text-decoration:none}
-    .links a:hover{text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:2px}
-    .pill{background:#111;color:#fff;padding:.68rem 1rem;border-radius:999px}
-    .menu{display:none;border:0;background:none;font-weight:800}
-    .hero{border-bottom:1px solid var(--line)}
-    .hero-inner{max-width:var(--max);margin:auto;padding:6rem 1.5rem 5rem;display:grid;grid-template-columns:minmax(0,1.25fr) minmax(300px,.75fr);gap:4.5rem;align-items:start}
-    .eyebrow{grid-column:1/-1;margin:0 0 1rem;text-transform:uppercase;letter-spacing:.16em;font-size:.72rem;font-weight:850;color:var(--muted)}
-    h1{margin:0;font-size:clamp(4rem,7vw,7.4rem);line-height:.9;letter-spacing:-.075em;max-width:850px}
-    h1 span{color:var(--green-dark)}
-    .hero-copy{padding-top:.4rem}
-    .hero-copy p{font-size:clamp(1.08rem,1.5vw,1.35rem);margin:0;color:#333}
-    .hero-actions{display:flex;gap:.8rem;flex-wrap:wrap;margin-top:2rem}
-    .btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:.8rem 1.15rem;border-radius:999px;border:1px solid #111;background:#111;color:#fff;text-decoration:none;font-weight:800}
-    .btn.secondary{background:#fff;color:#111}
-    .note{margin-top:2rem;padding-left:1rem;border-left:4px solid var(--green);font-size:.92rem;color:var(--muted)}
-    .system{background:var(--black);color:#fff;position:relative;overflow:hidden}
-    .system:before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.055) 1px,transparent 1px);background-size:42px 42px;mask-image:linear-gradient(to right,#000,rgba(0,0,0,.25))}
-    .system-inner{position:relative;max-width:var(--max);margin:auto;padding:2rem 1.5rem 3rem}
-    .system-head{display:flex;justify-content:space-between;align-items:end;gap:1rem;padding-bottom:1.2rem;border-bottom:1px solid rgba(255,255,255,.18)}
-    .system-head h2{margin:0;font-size:1rem;letter-spacing:.06em;text-transform:uppercase}
-    .system-head p{margin:0;font-size:.76rem;color:#cfe7a5;text-transform:uppercase;letter-spacing:.11em}
-    .boundary{display:grid;grid-template-columns:1fr 100px 1fr;min-height:500px}
-    .zone{padding:2rem 1.2rem;display:flex;flex-direction:column}
-    .zone h3{margin:0 0 .4rem;font-size:.9rem;text-transform:uppercase;letter-spacing:.09em}
-    .zone>p{margin:0;color:#bcbcbc;font-size:.83rem;max-width:300px}
-    .signals{position:relative;flex:1;margin-top:1.6rem;min-height:320px}
-    .signal{position:absolute;left:0;width:min(245px,90%);padding:.75rem .85rem;border:1px solid rgba(255,255,255,.24);background:rgba(255,255,255,.075);border-radius:7px;font-size:.78rem;font-weight:750;transition:.45s ease}
-    .signal small{display:block;color:#a8a8a8;font-weight:550;margin-top:.2rem}
-    .signal:nth-child(1){top:3%;transform:translateX(0)}
-    .signal:nth-child(2){top:28%;transform:translateX(18%)}
-    .signal:nth-child(3){top:54%;transform:translateX(5%)}
-    .signal:nth-child(4){top:78%;transform:translateX(24%)}
-    .signal.active{border-color:var(--green);box-shadow:0 0 0 1px rgba(134,188,37,.22)}
-    .spine{position:relative;display:grid;place-items:center}
-    .spine:before{content:"";position:absolute;top:0;bottom:0;width:2px;background:linear-gradient(to bottom,transparent,var(--green) 15%,var(--green) 85%,transparent)}
-    .gate{position:relative;z-index:2;width:80px;height:80px;border-radius:50%;display:grid;place-items:center;text-align:center;border:2px solid var(--green);background:var(--black);font-size:.62rem;font-weight:850;letter-spacing:.08em;text-transform:uppercase;color:#dceabc;box-shadow:0 0 0 12px rgba(134,188,37,.07)}
-    .gate:before,.gate:after{content:"";position:absolute;top:50%;width:45px;height:2px;background:var(--green)}
-    .gate:before{right:100%}.gate:after{left:100%}
-    .owned{display:grid;gap:.45rem;margin-top:1.4rem}
-    .owned-row{display:grid;grid-template-columns:16px 1fr;gap:.75rem;padding:.72rem 0;border-bottom:1px solid rgba(255,255,255,.14);font-size:.79rem}
-    .status{width:12px;height:12px;border-radius:50%;border:2px solid #777;margin-top:.25rem;transition:.35s ease}
-    .owned-row.ready .status{background:var(--green);border-color:var(--green);box-shadow:0 0 16px rgba(134,188,37,.55)}
-    .owned-row strong{display:block}.owned-row span{color:#aaa}
-    .system-foot{display:flex;justify-content:space-between;gap:1rem;padding-top:1.25rem;border-top:1px solid rgba(255,255,255,.18);font-size:.8rem;color:#c5c5c5}
-    .section{padding:6.5rem 1.5rem}
-    .inner{max-width:var(--max);margin:auto}
-    .label{font-size:.72rem;text-transform:uppercase;letter-spacing:.16em;font-weight:850;color:var(--green-dark);margin-bottom:1rem}
-    .section h2{font-size:clamp(2.5rem,5vw,5rem);line-height:1;letter-spacing:-.06em;margin:0;max-width:980px}
-    .lead{max-width:800px;font-size:1.16rem;color:var(--muted);margin:1.4rem 0 0}
-    .wash{background:var(--wash)}
-    .dark{background:#111;color:#fff}.dark .lead{color:#c6c6c6}.dark .label{color:#cce49f}
-    .tensions{display:grid;grid-template-columns:.8fr 1.2fr;gap:5rem;margin-top:4rem}
-    blockquote{margin:0;font-size:clamp(1.8rem,3.5vw,3.4rem);line-height:1.08;letter-spacing:-.045em;font-weight:780;position:sticky;top:120px}
-    .tension-list{border-top:1px solid var(--line)}
-    .tension{display:grid;grid-template-columns:62px 1fr;gap:1rem;padding:1.45rem 0;border-bottom:1px solid var(--line)}
-    .num{color:var(--green-dark);font-weight:850}.tension h3{margin:0 0 .3rem}.tension p{margin:0;color:var(--muted)}
-    .contract{margin-top:4rem;display:grid;grid-template-columns:repeat(5,1fr);border-top:2px solid #111;border-bottom:2px solid #111}
-    .step{padding:1.5rem 1.1rem 1.7rem;min-height:260px;border-right:1px solid var(--line);transition:.25s;background:#fff}
-    .step:last-child{border-right:0}.step:hover{background:var(--green-soft)}
-    .step b{font-size:.72rem;letter-spacing:.12em}.step h3{font-size:1.35rem;margin:2.4rem 0 .6rem;letter-spacing:-.03em}.step p{font-size:.86rem;color:var(--muted)}.step em{display:block;margin-top:1rem;padding-top:.8rem;border-top:1px solid var(--line);font-size:.74rem;font-style:normal;font-weight:800}
-    .lab-grid{display:grid;grid-template-columns:minmax(300px,.75fr) minmax(0,1.25fr);gap:3rem;margin-top:3.5rem}
-    .controls{background:#fff;color:#111;padding:1.5rem;border:1px solid #2f2f2f;border-radius:14px}
-    .scenario-tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:.5rem}
-    .scenario{border:1px solid #bbb;background:#fff;padding:.72rem .55rem;font-size:.75rem;font-weight:800;border-radius:7px}
-    .scenario.active{background:#111;color:#fff;border-color:#111}
-    .slider-row{margin-top:1.4rem}.slider-head{display:flex;justify-content:space-between;gap:1rem;font-size:.79rem;font-weight:800;margin-bottom:.45rem}.slider-head span:last-child{color:var(--green-dark)}
-    input[type=range]{width:100%;accent-color:var(--green)}
-    .reset{margin-top:1.25rem;width:100%;padding:.75rem;border:1px solid #111;background:#fff;font-weight:800;border-radius:8px}
-    .readout{padding:2rem;border:1px solid rgba(255,255,255,.18);border-radius:14px;background:linear-gradient(145deg,rgba(255,255,255,.07),rgba(255,255,255,.025))}
-    .posture{font-size:clamp(2rem,4vw,4.3rem);line-height:.98;letter-spacing:-.055em;margin:.3rem 0 1rem;color:#e2efc8}
-    .readout>p{color:#c8c8c8;max-width:720px}
-    .requirements{display:grid;grid-template-columns:repeat(2,1fr);gap:.7rem;margin-top:1.5rem}
-    .req{padding:1rem;border:1px solid rgba(255,255,255,.14);border-radius:8px}.req small{display:block;color:#a9a9a9;text-transform:uppercase;letter-spacing:.1em;font-size:.62rem}.req strong{display:block;margin-top:.25rem;font-size:.92rem}
-    .evidence{margin-top:4rem;display:grid;grid-template-columns:1.1fr .9fr;gap:4rem}
-    .trail{border-left:2px solid var(--green);padding-left:2rem}
-    .role{padding:0 0 2rem}.role+.role{padding-top:2rem;border-top:1px solid var(--line)}.role h3{margin:0;font-size:1.35rem}.role .meta{color:var(--green-dark);font-weight:800;font-size:.8rem;margin:.25rem 0 .7rem}.role p{margin:.35rem 0;color:var(--muted)}
-    .proof{background:#111;color:#fff;padding:2rem;border-radius:14px;align-self:start;position:sticky;top:110px}.proof h3{font-size:1.8rem;margin:0 0 1rem;letter-spacing:-.04em}.proof ul{padding-left:1.1rem;margin:0}.proof li{margin:.8rem 0;color:#d0d0d0}.proof code{color:#d9e9b7}
-    .plan{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#444;margin-top:3.5rem;border:1px solid #444}.phase{background:#111;padding:2rem}.phase .days{color:#cfe6a5;text-transform:uppercase;letter-spacing:.12em;font-size:.7rem;font-weight:850}.phase h3{font-size:1.45rem;margin:1.2rem 0}.phase ul{padding-left:1.1rem;color:#c9c9c9}.phase li{margin:.7rem 0}
-    .objection{display:grid;grid-template-columns:.8fr 1.2fr;gap:4rem;margin-top:3.5rem;align-items:start}.question{font-size:clamp(1.8rem,3vw,3.1rem);line-height:1.08;letter-spacing:-.045em;font-weight:780}.answer-grid{display:grid;gap:1rem}.answer{padding:1.4rem;border-top:1px solid rgba(255,255,255,.2)}.answer b{display:block;color:#cce49f;text-transform:uppercase;letter-spacing:.11em;font-size:.68rem;margin-bottom:.5rem}.answer p{margin:0;color:#d0d0d0}
-    .cta{background:var(--green);color:#111}.cta-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:3rem;align-items:end}.cta h2{max-width:780px}.cta-links{display:grid;gap:.7rem}.cta-links a{display:flex;justify-content:space-between;padding:1rem 0;border-bottom:1px solid rgba(0,0,0,.35);text-decoration:none;font-weight:850}
-    footer{background:#000;color:#fff;padding:2.5rem 1.5rem}.footer{max-width:var(--max);margin:auto;display:grid;grid-template-columns:1.2fr .8fr;gap:3rem;font-size:.78rem}.footer p{color:#aaa;max-width:720px}.footer-links{display:grid;gap:.45rem;align-content:start}.footer-links a{color:#fff}
-    @media(max-width:900px){
-      .hero-inner,.tensions,.lab-grid,.evidence,.objection,.cta-grid,.footer{grid-template-columns:1fr;gap:2.5rem}
-      .hero-inner{padding-top:4rem}.hero-copy{padding-top:0}.boundary{grid-template-columns:1fr}.spine{height:100px}.spine:before{top:50%;left:0;right:0;width:auto;height:2px;background:linear-gradient(to right,transparent,var(--green) 15%,var(--green) 85%,transparent)}.gate:before,.gate:after{display:none}
-      .contract{grid-template-columns:1fr}.step{min-height:0;border-right:0;border-bottom:1px solid var(--line)}.step h3{margin-top:1rem}
-      .plan{grid-template-columns:1fr}.proof,blockquote{position:static}
-    }
-    @media(max-width:700px){
-      .links{display:none;position:absolute;top:100%;left:0;right:0;background:#fff;border-bottom:1px solid var(--line);padding:1rem 1.5rem;flex-direction:column;align-items:flex-start}.links.open{display:flex}.menu{display:block}
-      h1{font-size:clamp(3.1rem,16vw,5.2rem)}.hero-inner{padding-bottom:3.5rem}.section{padding:4.5rem 1.1rem}.requirements{grid-template-columns:1fr}.scenario-tabs{grid-template-columns:1fr}.system-inner{padding-inline:1rem}.zone{padding-inline:.4rem}.system-foot{flex-direction:column}.contract,.plan{margin-top:2.5rem}
-    }
-    @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Independent candidate vision by Russell Dudek for Deloitte's Forward Deployed Engineer, Frontier GenAI role.">
+<title>Russell Dudek | Deloitte Frontier GenAI FDE</title>
+<link rel="stylesheet" href="styles.v2.css">
 </head>
 <body id="top">
 <a class="skip" href="#main">Skip to content</a>
-<header class="header">
-  <nav class="nav" aria-label="Primary navigation">
-    <a class="brand" href="#top" aria-label="Deloitte candidate vision">Deloitte<span class="brand-dot">.</span></a>
-    <button class="menu" type="button" aria-expanded="false" aria-controls="navlinks">Menu</button>
-    <div class="links" id="navlinks">
-      <a href="#mandate">Mandate</a><a href="#model">Operating model</a><a href="#lab">Decision lab</a><a href="#evidence">Evidence</a><a href="#plan">90 days</a><a class="pill" href="mailto:russelldudek@gmail.com">Contact Russell</a>
-    </div>
-  </nav>
+<header class="topbar">
+  <a class="identity" href="#top" aria-label="Deloitte candidate vision home"><span class="wordmark">deloitte<span>.</span></span><small>Independent candidate vision · Russell Dudek</small></a>
+  <nav id="nav" aria-label="Primary navigation"><a href="#mandate">Mandate</a><a href="#assembly">Deployment assembly</a><a href="#lab">Decision lab</a><a href="#evidence">Evidence</a><a href="#plan">90 days</a><a href="cover-letter.html">Cover letter</a><a class="resume-cta" href="resume.html">Résumé</a></nav>
+  <button class="menu" aria-expanded="false" aria-controls="nav" aria-label="Open navigation"><i></i><i></i></button>
 </header>
 <main id="main">
-  <section class="hero">
-    <div class="hero-inner">
-      <p class="eyebrow">Independent candidate vision by Russell Dudek · Forward Deployed Engineer, Frontier GenAI</p>
-      <h1>Frontier AI only matters when it <span>survives enterprise reality.</span></h1>
-      <div class="hero-copy">
-        <p>The forward-deployed engineer closes the distance between model capability and an owned, observable, governed client workflow.</p>
-        <div class="hero-actions"><a class="btn" href="#lab">Test the deployment posture</a><a class="btn secondary" href="#evidence">Review the evidence</a></div>
-        <p class="note">The job is not to leave behind an impressive demonstration. It is to leave behind working software, explicit authority, reliable evidence, and a client team capable of operating it.</p>
+<section class="hero">
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">Forward Deployed Engineer · Frontier GenAI</p>
+      <h1>Build the bridge from <em>frontier capability</em> to client-owned work.</h1>
+      <p class="lede">The FDE does more than demonstrate what a model can do. The FDE assembles context, tools, authority, evidence, observability, and ownership into software a client can safely operate after the pod moves on.</p>
+      <div class="hero-actions"><a class="button green" href="#lab">Test the deployment posture</a><a class="button outline" href="resume.html">View résumé</a><a class="text-link" href="cover-letter.html">Read cover letter →</a></div>
+      <div class="proof-strip"><span><b>Working model</b>Interactive deployment logic</span><span><b>Verified evidence</b>Operations, software and high-reliability systems</span><span><b>Complete set</b>Résumé, letter, brief, plan and contract</span></div>
+    </div>
+    <div class="assembly" id="assembly" aria-label="Animated enterprise AI deployment assembly">
+      <div class="assembly-head"><span>Enterprise AI deployment assembly</span><span class="live"><i></i>system active</span></div>
+      <div class="assembly-stage">
+        <div class="scan"></div>
+        <article class="module m1"><b>Context</b><span>Grounded inputs · workflow state</span></article>
+        <article class="module m2"><b>Tools</b><span>APIs · retrieval · permissions</span></article>
+        <article class="module m3"><b>Authority</b><span>Approval · escalation · reversibility</span></article>
+        <article class="module m4"><b>Evidence</b><span>Evaluation · regression · failure modes</span></article>
+        <article class="module m5"><b>Observability</b><span>Latency · cost · traces · recovery</span></article>
+        <article class="module m6"><b>Ownership</b><span>Runbook · team · cadence · backlog</span></article>
+        <div class="core"><div class="core-ring"></div><small>assembled outcome</small><strong>Client-owned<br>workflow</strong><span>approval-gated</span></div>
       </div>
+      <div class="assembly-foot"><span>prototype → operable capability</span><button id="replay" type="button">Replay assembly ↻</button></div>
     </div>
-  </section>
-
-  <section class="system" aria-labelledby="system-title">
-    <div class="system-inner">
-      <div class="system-head"><h2 id="system-title">The deployment boundary</h2><p id="system-state">Illustrative baseline · operational exception triage</p></div>
-      <div class="boundary">
-        <div class="zone">
-          <h3>Unresolved client work</h3><p>Business events arrive with incomplete context, variable consequences, fragmented ownership, and disconnected systems.</p>
-          <div class="signals">
-            <div class="signal active">Customer exception<small>Ambiguous request · high variability</small></div>
-            <div class="signal">Policy document<small>Context present · authority unclear</small></div>
-            <div class="signal">System event<small>Tool access required</small></div>
-            <div class="signal">Analyst decision<small>Consequence requires review</small></div>
-          </div>
-        </div>
-        <div class="spine"><div class="gate">Deployment<br/>boundary</div></div>
-        <div class="zone">
-          <h3>Enterprise-owned capability</h3><p>A capability crosses only when its next operating obligations are explicit.</p>
-          <div class="owned">
-            <div class="owned-row ready" data-obligation="context"><i class="status"></i><div><strong>Context and grounding</strong><span>Representative information is available and attributable.</span></div></div>
-            <div class="owned-row ready" data-obligation="authority"><i class="status"></i><div><strong>Human authority</strong><span>Approval, escalation, and irreversible actions are bounded.</span></div></div>
-            <div class="owned-row ready" data-obligation="evidence"><i class="status"></i><div><strong>Evaluation evidence</strong><span>Quality and failure behavior are tested on workflow-relevant cases.</span></div></div>
-            <div class="owned-row" data-obligation="operability"><i class="status"></i><div><strong>Operability</strong><span>Logging, latency, cost, recovery, and support are visible.</span></div></div>
-            <div class="owned-row" data-obligation="ownership"><i class="status"></i><div><strong>Client ownership</strong><span>A named team can operate, improve, and govern the workflow.</span></div></div>
-          </div>
-        </div>
-      </div>
-      <div class="system-foot"><strong id="hero-posture">Recommended posture: Execute with approval</strong><span>Change the scenario and controls below to see the boundary move.</span></div>
-    </div>
-  </section>
-
-  <section class="section" id="mandate">
-    <div class="inner">
-      <div class="label">The actual mandate</div>
-      <h2>Reduce the distance between AI ambition and a production-capable workflow.</h2>
-      <p class="lead">Deloitte is not hiring a presentation layer around frontier models. The FDE must identify valuable work, build rapidly, communicate with senior stakeholders, make engineering tradeoffs visible, and leave behind reusable assets plus client-operable capability.</p>
-      <div class="tensions">
-        <blockquote>Move at frontier-model speed while delivering at enterprise-control standards.</blockquote>
-        <div class="tension-list">
-          <article class="tension"><div class="num">01</div><div><h3>Speed vs governance</h3><p>Prototype quickly without deferring permissions, failure behavior, evaluation, economics, or ownership until the end.</p></div></article>
-          <article class="tension"><div class="num">02</div><div><h3>Client specificity vs reusable delivery IP</h3><p>Solve the actual workflow while capturing patterns, code, evaluations, prompts, and runbooks that improve the next engagement.</p></div></article>
-          <article class="tension"><div class="num">03</div><div><h3>Model capability vs system reliability</h3><p>A strong single response is not a reliable operating system. Repeated behavior, tool state, latency, and recovery matter.</p></div></article>
-          <article class="tension"><div class="num">04</div><div><h3>Agent autonomy vs human authority</h3><p>Autonomy must be earned by consequence, evidence, permissions, and reversibility—not assumed from model fluency.</p></div></article>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section wash" id="model">
-    <div class="inner">
-      <div class="label">Forward Deployment Contract</div>
-      <h2>Advance the workflow only when its next obligation is satisfied.</h2>
-      <p class="lead">The operating model is a deployment contract, not a generic innovation funnel.</p>
-      <div class="contract">
-        <article class="step"><b>01</b><h3>Frame</h3><p>Define the changed work, affected user, current failure mode, value hypothesis, baseline, constraints, and accountable owner.</p><em>Exit: a workflow problem, not an AI feature request.</em></article>
-        <article class="step"><b>02</b><h3>Prove</h3><p>Build the smallest end-to-end implementation that tests context, tool use, model behavior, workflow fit, and user usefulness.</p><em>Exit: a real user completes meaningful work.</em></article>
-        <article class="step"><b>03</b><h3>Bound</h3><p>Define permissions, approvals, escalation, refusal, evaluation, versioning, cost, latency, and model-risk limits.</p><em>Exit: allowed, prohibited, and held actions are explicit.</em></article>
-        <article class="step"><b>04</b><h3>Embed</h3><p>Integrate identity, APIs, workflow systems, logging, observability, CI/CD, support, and operating cadence.</p><em>Exit: capability works inside the real workflow.</em></article>
-        <article class="step"><b>05</b><h3>Transfer</h3><p>Complete runbook, ownership, training, architecture record, reusable assets, backlog, and performance review cadence.</p><em>Exit: the client can operate and improve it.</em></article>
-      </div>
-    </div>
-  </section>
-
-  <section class="section dark" id="lab">
-    <div class="inner">
-      <div class="label">Deployment posture lab</div>
-      <h2>Let consequence and variability determine the engineering posture.</h2>
-      <p class="lead">This illustrative tool does not claim knowledge of Deloitte's internal methods. It demonstrates how I reason about autonomy, review, evaluation, observability, and ownership.</p>
-      <div class="lab-grid">
-        <div class="controls">
-          <div class="scenario-tabs" role="tablist" aria-label="Scenario type">
-            <button class="scenario" data-scenario="knowledge" role="tab" aria-selected="false">Knowledge workflow</button>
-            <button class="scenario active" data-scenario="exception" role="tab" aria-selected="true">Operational exception</button>
-            <button class="scenario" data-scenario="engineering" role="tab" aria-selected="false">Engineering workflow</button>
-          </div>
-          <div class="slider-row"><div class="slider-head"><span>Consequence severity</span><span id="severity-value">3 / 5</span></div><input id="severity" type="range" min="1" max="5" value="3" /></div>
-          <div class="slider-row"><div class="slider-head"><span>Workflow variability</span><span id="variability-value">4 / 5</span></div><input id="variability" type="range" min="1" max="5" value="4" /></div>
-          <div class="slider-row"><div class="slider-head"><span>Response-time pressure</span><span id="latency-value">3 / 5</span></div><input id="latency" type="range" min="1" max="5" value="3" /></div>
-          <div class="slider-row"><div class="slider-head"><span>Requested autonomy</span><span id="autonomy-value">3 / 5</span></div><input id="autonomy" type="range" min="1" max="5" value="3" /></div>
-          <button class="reset" type="button" id="reset">Reset illustrative baseline</button>
-        </div>
-        <div class="readout" aria-live="polite">
-          <div class="label">Recommended deployment posture</div>
-          <div class="posture" id="posture">Execute with approval</div>
-          <p id="rationale">Moderate consequence and high variability require explicit approval, strong traceability, representative evaluation cases, and a client-side operating owner before broader autonomy.</p>
-          <div class="requirements">
-            <div class="req"><small>Human authority</small><strong id="human">Approval before consequential action</strong></div>
-            <div class="req"><small>Evaluation</small><strong id="evaluation">Representative + adversarial + repeated-run</strong></div>
-            <div class="req"><small>Observability</small><strong id="observability">Full tool trace, cost, latency, retries, overrides</strong></div>
-            <div class="req"><small>Release condition</small><strong id="release">Bounded pilot with named owner</strong></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section" id="evidence">
-    <div class="inner">
-      <div class="label">Transferable evidence</div>
-      <h2>Lead with direct work, not management-title gravity.</h2>
-      <div class="evidence">
-        <div class="trail">
-          <article class="role"><h3>Vape-Jet · Director of Operations</h3><div class="meta">2025–present · direct operating evidence</div><p>Connects production, quality, support, engineering, customer, ERP, telemetry, and machine-fleet signals into prioritized work, earlier risk detection, standard processes, dashboards, training, and accountability.</p><p>Works in a software-enabled robotics and machine-vision environment with approximately 1,000 fielded robots informing operational feedback loops.</p></article>
-          <article class="role"><h3>DudeWorth · Founder / AI and Automation Advisor</h3><div class="meta">2017–present · workflow and agentic design</div><p>Develops AI-readiness frameworks and agentic workflow patterns using structured context, retrieval, AI agents, human judgment, escalation, decision records, evaluation, and governance rails.</p></article>
-          <article class="role"><h3>Amazon · Operations Management / Site Leader</h3><div class="meta">2014–2018 · production discipline at scale</div><p>Led execution in a 24/7 customer-backward environment supporting approximately five million second-day orders annually, with operating mechanisms for throughput, escalation, quality, safety, and standard work.</p></article>
-          <article class="role"><h3>Compunetics · Director of Operations and Engineering Management</h3><div class="meta">2000–2013 · high-reliability technical systems</div><p>Led engineering, manufacturing, quality, customer delivery, and complex technical programs in advanced electronics and high-consequence environments involving DoD, CERN, Intel, and AMD.</p></article>
-        </div>
-        <aside class="proof"><h3>Hands-on proof standard</h3><ul><li>Working interaction logic on this page</li><li>Provider-neutral deployment-posture reasoning</li><li>Explicit human authority and evaluation requirements</li><li>Visible cost, latency, failure, and ownership decisions</li><li>Verified tools: <code>Python</code>, <code>SQL</code>, <code>JavaScript</code>, <code>TensorFlow</code>, RAG and human-in-the-loop patterns</li><li>No invented production ownership of specific frontier platforms</li></ul></aside>
-      </div>
-    </div>
-  </section>
-
-  <section class="section dark" id="plan">
-    <div class="inner">
-      <div class="label">First 90 days</div>
-      <h2>Earn technical trust, own a bounded workstream, then prove transferability.</h2>
-      <div class="plan">
-        <article class="phase"><div class="days">Days 1–30</div><h3>Learn the pod and ship</h3><ul><li>Learn approved platforms, architecture, security, evaluation, code, and documentation standards.</li><li>Pair on client framing and working sessions.</li><li>Build small tool-use and retrieval implementations.</li><li>Contribute tests, documentation, runbooks, and issue resolution.</li><li>Target: first merged engineering contribution.</li></ul></article>
-        <article class="phase"><div class="days">Days 31–60</div><h3>Own a bounded workstream</h3><ul><li>Define the workflow baseline and value hypothesis.</li><li>Implement one end-to-end AI-enabled workflow with a realistic integration boundary.</li><li>Define permissions, approvals, failure tests, and known limitations.</li><li>Instrument latency, cost, model behavior, and tool outcomes.</li><li>Target: representative users complete meaningful work.</li></ul></article>
-        <article class="phase"><div class="days">Days 61–90</div><h3>Prove operability and transfer</h3><ul><li>Support production-readiness and CI/CD decisions.</li><li>Create runbook, monitoring, escalation, ownership, and backlog.</li><li>Pair with client engineers and operators.</li><li>Convert repeated elements into reusable assets.</li><li>Target: client-operable workflow and reusable Deloitte capability.</li></ul></article>
-      </div>
-    </div>
-  </section>
-
-  <section class="section dark">
-    <div class="inner">
-      <div class="label">The hard objection</div>
-      <div class="objection">
-        <div class="question">“Is someone with broad operations and leadership scope genuinely prepared to code, test, debug integrations, document, and contribute inside a pod?”</div>
-        <div class="answer-grid">
-          <article class="answer"><b>What the concern protects</b><p>The pod needs a practitioner who contributes directly, accepts technical feedback, and does not substitute seniority for working software.</p></article>
-          <article class="answer"><b>My answer</b><p>My titles describe the scope of problems for which I have been accountable—not a preference to remain distant from the work. I am pursuing this role to be closer to the build and the client problem.</p></article>
-          <article class="answer"><b>The proof required</b><p>Judge the work: workflow logic, technical reasoning, evaluation discipline, explicit authority, operational controls, and the willingness to state where production-platform evidence is not yet verified.</p></article>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section cta">
-    <div class="inner cta-grid">
-      <div><div class="label">Next conversation</div><h2>Where does Deloitte see the biggest gap between successful prototypes and client-owned capability?</h2></div>
-      <div class="cta-links"><a href="mailto:russelldudek@gmail.com"><span>Email Russell</span><span>↗</span></a><a href="https://www.linkedin.com/in/russelldudek"><span>LinkedIn</span><span>↗</span></a><a href="https://apply.deloitte.com/en_US/careers/InviteToApply?jobId=358930&source=LinkedIn"><span>Original job posting</span><span>↗</span></a></div>
-    </div>
-  </section>
+  </div>
+</section>
+<div class="ticker" aria-hidden="true"><div>MODEL CAPABILITY · REAL CONTEXT · TOOL USE · HUMAN AUTHORITY · EVALUATION EVIDENCE · OPERABILITY · CLIENT OWNERSHIP · MODEL CAPABILITY · REAL CONTEXT · TOOL USE · HUMAN AUTHORITY · EVALUATION EVIDENCE · OPERABILITY · CLIENT OWNERSHIP ·</div></div>
+<section class="section" id="mandate"><div class="wrap"><p class="eyebrow dark-ink">The actual mandate</p><h2>Reduce the distance between AI ambition and a production-capable workflow.</h2><p class="section-lede">Deloitte’s FDE model asks one practitioner to move fluidly between discovery, software, architecture, evaluation, stakeholder alignment, production hardening and capability transfer.</p><div class="mandate-grid"><blockquote>Move at frontier-model speed while delivering at enterprise-control standards.</blockquote><div class="tensions"><article><b>01</b><div><h3>Speed vs. governance</h3><p>Prototype quickly without postponing permissions, failure behavior, economics or ownership.</p></div></article><article><b>02</b><div><h3>Client specificity vs. reusable IP</h3><p>Solve the actual workflow while retaining patterns that improve the next engagement.</p></div></article><article><b>03</b><div><h3>Model capability vs. system reliability</h3><p>A powerful response is not a production system. Repeated behavior and recovery matter.</p></div></article><article><b>04</b><div><h3>Autonomy vs. human authority</h3><p>Autonomy must be earned by consequence, evidence, permissions and reversibility.</p></div></article></div></div></div></section>
+<section class="section fog"><div class="wrap"><p class="eyebrow dark-ink">Forward Deployment Contract</p><h2>Advance the workflow only when its next operating obligation is satisfied.</h2><div class="contract"><article><span>01</span><h3>Frame</h3><p>Changed work, affected user, baseline, constraints and accountable owner.</p><b>Exit: a workflow problem—not an AI feature request.</b></article><article><span>02</span><h3>Prove</h3><p>The smallest end-to-end implementation testing fit, behavior and usefulness.</p><b>Exit: a real user completes meaningful work.</b></article><article><span>03</span><h3>Bound</h3><p>Permissions, approvals, refusal, evaluation, cost, latency and model risk.</p><b>Exit: allowed, prohibited and held actions are explicit.</b></article><article><span>04</span><h3>Embed</h3><p>Identity, APIs, logging, observability, CI/CD, support and cadence.</p><b>Exit: capability works inside the real workflow.</b></article><article><span>05</span><h3>Transfer</h3><p>Runbook, training, ownership, architecture record, backlog and reusable assets.</p><b>Exit: the client can operate and improve it.</b></article></div></div></section>
+<section class="section black" id="lab" data-lab><div class="wrap"><p class="eyebrow">Deployment posture lab</p><h2>Let consequence and variability determine the engineering posture.</h2><p class="section-lede pale">Illustrative, provider-neutral reasoning. It does not claim knowledge of Deloitte’s private delivery methods.</p><div class="lab"><div class="controls"><div class="tabs" role="tablist"><button data-scenario="knowledge" aria-selected="false">Knowledge workflow</button><button class="active" data-scenario="exception" aria-selected="true">Operational exception</button><button data-scenario="engineering" aria-selected="false">Engineering workflow</button></div><label>Consequence severity <output data-out="severity">3 / 5</output><input id="severity" type="range" min="1" max="5" value="3"></label><label>Workflow variability <output data-out="variability">4 / 5</output><input id="variability" type="range" min="1" max="5" value="4"></label><label>Response-time pressure <output data-out="latency">3 / 5</output><input id="latency" type="range" min="1" max="5" value="3"></label><label>Requested autonomy <output data-out="autonomy">3 / 5</output><input id="autonomy" type="range" min="1" max="5" value="3"></label><button class="reset" data-reset>Reset illustrative baseline</button></div><div class="readout" aria-live="polite"><small>Recommended deployment posture</small><h3 data-posture>Execute with approval</h3><p data-rationale>Moderate consequence and high variability require explicit approval, strong traceability, representative evaluation and a named operating owner.</p><div class="requirements"><div><span>Human authority</span><b data-req="human">Approval before consequential action</b></div><div><span>Evaluation</span><b data-req="evaluation">Representative + adversarial + repeated-run</b></div><div><span>Observability</span><b data-req="observability">Full tool trace, cost, latency, retries, overrides</b></div><div><span>Release condition</span><b data-req="release">Bounded pilot with named owner</b></div></div></div></div></div></section>
+<section class="section" id="evidence"><div class="wrap"><p class="eyebrow dark-ink">Transferable evidence</p><h2>Lead with direct work—not management-title gravity.</h2><div class="evidence-grid"><div class="timeline"><article><h3>Vape-Jet · Director of Operations</h3><small>2025–present · direct operating evidence</small><p>Connects production, quality, support, engineering, customer, ERP, telemetry and a fielded robotics fleet into prioritized work, standard processes and operating feedback loops.</p></article><article><h3>DudeWorth · Founder / AI and Automation Advisor</h3><small>2017–present · workflow and agentic design</small><p>Develops AI-readiness frameworks and agentic workflow patterns using structured context, retrieval, agents, human judgment, escalation, evaluation and governance rails.</p></article><article><h3>Amazon · Operations Management / Site Leader</h3><small>2014–2018 · production discipline at scale</small><p>Led a 24/7 customer-backward operation supporting approximately five million second-day orders annually with mechanisms for throughput, escalation, quality and safety.</p></article><article><h3>Compunetics · Director of Operations and Engineering Management</h3><small>2000–2013 · high-reliability technical systems</small><p>Led engineering, manufacturing, quality and technical programs in advanced electronics and high-consequence environments involving DoD, CERN, Intel and AMD.</p></article></div><aside class="proof"><h3>Hands-on proof standard</h3><ul><li>Working JavaScript interaction and state logic</li><li>Provider-neutral deployment-posture reasoning</li><li>Explicit authority and evaluation requirements</li><li>Visible cost, latency, failure and ownership decisions</li><li>Verified toolkit: Python, SQL, JavaScript, TensorFlow, RAG and human-in-the-loop patterns</li><li>No invented production ownership of named frontier platforms</li></ul></aside></div></div></section>
+<section class="section black" id="plan"><div class="wrap"><p class="eyebrow">First 90 days</p><h2>Earn technical trust, own a bounded workstream, then prove transferability.</h2><div class="plan"><article><small>Days 1–30</small><h3>Learn the pod and ship</h3><ul><li>Learn approved platform, architecture, security, evaluation and code standards.</li><li>Pair on client framing and working sessions.</li><li>Build small tool-use and retrieval implementations.</li><li>Target: first merged engineering contribution.</li></ul></article><article><small>Days 31–60</small><h3>Own a bounded workstream</h3><ul><li>Define workflow baseline and value hypothesis.</li><li>Implement one end-to-end AI-enabled workflow.</li><li>Define permissions, approvals and failure tests.</li><li>Target: representative users complete meaningful work.</li></ul></article><article><small>Days 61–90</small><h3>Prove operability and transfer</h3><ul><li>Support production readiness and CI/CD decisions.</li><li>Create runbook, monitoring, escalation and ownership.</li><li>Pair with client engineers and operators.</li><li>Target: client-operable workflow and reusable Deloitte capability.</li></ul></article></div></div></section>
+<section class="section fog" id="documents"><div class="wrap"><p class="eyebrow dark-ink">Application documents</p><h2>One argument, built across every interview surface.</h2><p class="section-lede">Every document is readable in-browser and provides a direct PDF download. No print-dialog detours.</p><div class="docs"><article><h3>Role-aligned résumé</h3><p>Two-page evidence map focused on direct execution, agentic workflows and technical transferability.</p><a href="resume.html">View résumé →</a><a download href="docs/russell-dudek-deloitte-frontier-genai-fde-resume.pdf">Download PDF ↓</a></article><article><h3>Cover letter</h3><p>One-page letter centered on the boundary between impressive prototypes and client-owned capability.</p><a href="cover-letter.html">View letter →</a><a download href="docs/russell-dudek-deloitte-frontier-genai-fde-cover-letter.pdf">Download PDF ↓</a></article><article><h3>Interview brief</h3><p>Mandate, tensions, thesis, proof map, objection response and executive questions.</p><a href="interview-brief.html">View brief →</a><a download href="docs/russell-dudek-deloitte-frontier-genai-fde-interview-brief.pdf">Download PDF ↓</a></article><article><h3>90-day plan</h3><p>A staged path from technical trust to bounded ownership and client-operable transfer.</p><a href="90-day-plan.html">View plan →</a><a download href="docs/russell-dudek-deloitte-frontier-genai-fde-90-day-plan.pdf">Download PDF ↓</a></article><article><h3>Deployment contract</h3><p>The mechanism connecting workflow framing, proof, authority, embedding and transfer.</p><a href="deployment-contract.html">View contract →</a><a download href="docs/russell-dudek-forward-deployment-contract.pdf">Download PDF ↓</a></article></div></div></section>
+<section class="closing"><div><p class="eyebrow dark-ink">The interview question worth discussing</p><h2>Where does Deloitte see the biggest gap between a successful GenAI prototype and client-owned capability?</h2></div><div><a href="resume.html">Résumé →</a><a href="cover-letter.html">Cover letter →</a><a href="mailto:russelldudek@gmail.com">Email Russell ↗</a><a href="https://www.linkedin.com/in/russelldudek">LinkedIn ↗</a></div></section>
 </main>
-<footer>
-  <div class="footer"><div><a class="brand" href="#top">Deloitte<span class="brand-dot">.</span></a><p>Independent candidate work by Russell Dudek for the Forward Deployed Engineer, Frontier GenAI role. This is not a Deloitte publication, representation, or endorsement. Company and role references are nominative.</p></div><div class="footer-links"><a href="mailto:russelldudek@gmail.com">russelldudek@gmail.com</a><a href="tel:+14122878640">412.287.8640</a><a href="https://www.linkedin.com/in/russelldudek">linkedin.com/in/russelldudek</a><a href="https://russelldudek.github.io/">russelldudek.github.io</a></div></div>
-</footer>
-<script>
-  const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
-  const state={scenario:'exception',severity:3,variability:4,latency:3,autonomy:3};
-  const scenarios={
-    knowledge:{severity:2,variability:3,latency:2,autonomy:2,label:'knowledge workflow'},
-    exception:{severity:3,variability:4,latency:3,autonomy:3,label:'operational exception triage'},
-    engineering:{severity:4,variability:3,latency:4,autonomy:2,label:'technical engineering workflow'}
-  };
-  function posture(){
-    const risk=state.severity*1.45+state.variability*.9+state.autonomy*.8+state.latency*.35;
-    if(state.severity>=5||risk>=14.2)return ['Hold for redesign','High consequence or combined operating risk exceeds the evidence and authority currently represented. Narrow the action, strengthen evaluation, and resolve ownership before release.','Human-first decision; AI may prepare evidence','Adversarial, repeated-run, tool-failure, rollback','Complete traces plus policy and security events','Redesign or tightly bounded shadow mode',2];
-    if(risk>=11.1)return ['Execute with approval','The workflow can advance only with explicit approval, strong traceability, representative evaluation, and a named operating owner.','Approval before consequential action','Representative + adversarial + repeated-run','Full tool trace, cost, latency, retries, overrides','Bounded pilot with named owner',3];
-    if(risk>=8.1)return ['Recommend, human decides','AI may synthesize evidence and recommend an action, while a human retains final authority and the system records the decision path.','Human decision at workflow boundary','Representative cases + edge cases + regression','Inputs, outputs, retrieval, tool calls, overrides','Pilot with review cadence',4];
-    if(risk>=5.6)return ['Assist inside the workflow','Use AI to retrieve, summarize, draft, and organize work without granting independent consequential authority.','Human acts; AI prepares','Functional + groundedness + regression','Source attribution, latency, feedback','Limited release with monitored adoption',4];
-    return ['Bounded autonomous execution','Low consequence, stable workflow, and limited permissions support narrowly bounded autonomy with monitoring and a reliable fallback.','Human owns policy and exceptions','Regression + drift + tool-state coverage','Action trace, exceptions, cost, latency','Canary release with automatic fallback',5];
-  }
-  function render(){
-    ['severity','variability','latency','autonomy'].forEach(k=>{state[k]=+$(`#${k}`).value;$(`#${k}-value`).textContent=`${state[k]} / 5`});
-    const [p,r,h,e,o,rel,ready]=posture();
-    $('#posture').textContent=p;$('#rationale').textContent=r;$('#human').textContent=h;$('#evaluation').textContent=e;$('#observability').textContent=o;$('#release').textContent=rel;$('#hero-posture').textContent=`Recommended posture: ${p}`;
-    $$('.owned-row').forEach((el,i)=>el.classList.toggle('ready',i<ready));
-    $$('.signal').forEach((el,i)=>el.classList.toggle('active',i===(state.variability+state.severity)%4));
-  }
-  $$('input[type=range]').forEach(el=>el.addEventListener('input',render));
-  $$('.scenario').forEach(btn=>btn.addEventListener('click',()=>{
-    $$('.scenario').forEach(b=>{b.classList.remove('active');b.setAttribute('aria-selected','false')});btn.classList.add('active');btn.setAttribute('aria-selected','true');state.scenario=btn.dataset.scenario;const s=scenarios[state.scenario];
-    ['severity','variability','latency','autonomy'].forEach(k=>$(`#${k}`).value=s[k]);$('#system-state').textContent=`Illustrative baseline · ${s.label}`;render();
-  }));
-  $('#reset').addEventListener('click',()=>{$$('.scenario').forEach(b=>{const on=b.dataset.scenario==='exception';b.classList.toggle('active',on);b.setAttribute('aria-selected',String(on))});Object.assign(state,{scenario:'exception',severity:3,variability:4,latency:3,autonomy:3});['severity','variability','latency','autonomy'].forEach(k=>$(`#${k}`).value=state[k]);$('#system-state').textContent='Illustrative baseline · operational exception triage';render()});
-  $('.menu').addEventListener('click',e=>{const open=$('#navlinks').classList.toggle('open');e.currentTarget.setAttribute('aria-expanded',String(open))});
-  $$('#navlinks a').forEach(a=>a.addEventListener('click',()=>{$('#navlinks').classList.remove('open');$('.menu').setAttribute('aria-expanded','false')}));
-  render();
-</script>
+<footer><div><span class="wordmark">deloitte<span>.</span></span><p>Independent candidate work by Russell Dudek. This is not a Deloitte publication, representation or endorsement.</p></div><div><a href="mailto:russelldudek@gmail.com">russelldudek@gmail.com</a><a href="tel:+14122878640">412.287.8640</a><a href="https://www.linkedin.com/in/russelldudek">linkedin.com/in/russelldudek</a></div></footer>
+<script src="app.v2.js"></script>
 </body>
 </html>
